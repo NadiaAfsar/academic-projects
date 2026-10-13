@@ -2,11 +2,11 @@
 
 A Java console application for managing directed weighted graphs. Supports creation, addition, deletion, and editing of vertices and edges, with sorted output.
 
-## 📖 Overview
+##  Overview
 
 This project provides a data structure for storing directed weighted graphs and a command-line interface to manipulate them. The implementation uses `HashMap` for storing vertices and edges, with manual sorting applied only when displaying the graph.
 
-## ✨ Features
+##  Features
 
 - Create empty graphs with unique 2-digit IDs.
 - Add, delete, and edit vertices (unique 8-digit IDs, real weight).
@@ -15,7 +15,7 @@ This project provides a data structure for storing directed weighted graphs and 
 - Gracefully handles invalid commands by printing `INVALID COMMAND`.
 - Uses `HashMap` for average O(1) insertion, deletion, and lookup.
 
-## 🕹️ Supported Commands
+##  Supported Commands
 
 | Command | Description |
 |---------|-------------|
@@ -28,7 +28,7 @@ This project provides a data structure for storing directed weighted graphs and 
 | `EDIT_EDGE [GRAPH_ID] [START] [END] [WEIGHT]` | Updates the weight of an edge. |
 | `SHOW_GRAPH [GRAPH_ID]` | Prints the graph in a specific format. |
 
-## 📥 Input / Output Format
+##  Input / Output Format
 
 ### Input
 - The first line contains an integer `q` (1 ≤ q ≤ 10⁶), the number of commands.
@@ -43,7 +43,7 @@ This project provides a data structure for storing directed weighted graphs and 
 - Weights are printed with exactly 6 decimal places.
 - For any invalid command, the program prints `INVALID COMMAND`.
 
-## 🧪 Example
+##  Example
 
 **Input:**
 ```
