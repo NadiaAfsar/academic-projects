@@ -2,7 +2,7 @@
 
 A Java implementation of an algorithm to plan paths for multiple rectangular robots to collect the maximum number of coins in a 3D grid environment, respecting movement constraints and avoiding collisions.
 
-## 📖 Problem Overview
+##  Problem Overview
 
 This project is the second phase of an Algorithm Design course assignment. The goal is to guide a set of robots to collect as many coins as possible from a 3D grid (a rectangular box). Each robot is a rectangular prism with integer dimensions. The environment is a 3D grid where each cell (a unit cube) may contain a coin (1) or be empty (0).
 
@@ -15,7 +15,7 @@ This project is the second phase of an Algorithm Design course assignment. The g
 - Robots cannot collide (they cannot occupy the same cell at the same time).
 - The goal is to maximize the total number of coins collected by all robots.
 
-## 🧠 Algorithm
+##  Algorithm
 
 The solution uses **recursive backtracking with pruning** to explore all possible sequences of coin collection.
 
@@ -39,7 +39,7 @@ The solution uses **recursive backtracking with pruning** to explore all possibl
 
 The algorithm uses a custom doubly linked list (`MyLinkedList`) for efficient removals and additions during backtracking.
 
-## 📥 Input Format
+##  Input Format
 ```
 n x y z
 c111 c112 ... c11x
@@ -54,7 +54,7 @@ c121 ...
 
 **Note:** The code uses 1-based indexing for coordinates.
 
-## 📤 Output Format
+##  Output Format
 
 - A single integer: the maximum number of coins that can be collected by all robots.
 
