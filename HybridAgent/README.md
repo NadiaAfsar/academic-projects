@@ -1,4 +1,4 @@
-# Hybrid Agent for Access Control using FOL and Propositional Logic 🤖🔐
+# Hybrid Agent for Access Control using FOL and Propositional Logic 
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org)
 [![AI](https://img.shields.io/badge/AI-FOL%20%26%20Propositional%20Logic-red.svg)]()
@@ -6,7 +6,7 @@
 
 > A Python implementation of a hybrid reasoning agent that combines **First-Order Logic (FOL)** and **Propositional Logic** to decide whether a person can access a specific room. The agent uses forward chaining with unification for FOL grounding, and resolution for propositional inference. It handles blocking rules (e.g., emergency, door closed, working hours) and granting rules (e.g., dean, professor, project member, supervision, secure lab) to produce a final access decision.
 
-## 📖 Project Overview
+##  Project Overview
 
 This project was developed as the third homework for an Artificial Intelligence course. The goal is to design an intelligent agent that can reason about complex organizational rules and environmental conditions to grant or deny access to rooms. The agent uses a two-layer architecture:
 
@@ -15,7 +15,7 @@ This project was developed as the third homework for an Artificial Intelligence 
 
 The system also provides **explainability** by printing the inference path (which rules fired and how the conclusion was reached).
 
-## ✨ Features
+##  Features
 
 - **FOL Forward Chaining:** Implements unification, occurs check, and variable standardization.
 - **Propositional Resolution:** Converts rules to CNF and applies resolution to derive the goal.
@@ -26,7 +26,7 @@ The system also provides **explainability** by printing the inference path (whic
 - **Explainability:** Prints generated ground facts and the final reasoning steps.
 - **Time Handling:** The blocking rule `NOT Time(start, end) -> NOT CanAccess` is implemented with a working-hour check.
 
-## 🧠 Architecture
+##  Architecture
 
 ### 1. FOL Layer (`FOLEngine.py`)
 - **Unification:** `unify`, `unify_var`, `occur_check`.
