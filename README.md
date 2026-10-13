@@ -12,7 +12,7 @@ A collection of academic and personal projects in Data Structures, Algorithms, a
 | 4 | [grapgh_analyzer](grapgh_analyzer/) | Data Structures | Java | A console application for managing directed weighted graphs with CRUD operations on vertices and edges, using HashMaps and sorted output. |
 | 5 | [multi-robot-coin-collection](multi-robot-coin-collection/) | Algorithm Design | Java | A recursive backtracking algorithm to plan paths for multiple rectangular robots in a 3D grid to collect the maximum number of coins while avoiding collisions. |
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Languages:** Java 17+, Python 3.8+
 - **AI/ML:** Search algorithms, Minimax, Alpha-Beta, FOL, Propositional Logic
