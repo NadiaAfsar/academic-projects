@@ -2,7 +2,7 @@
 
 A collection of academic and personal projects in Data Structures, Algorithms, and Artificial Intelligences. Each project resides in its own directory with a dedicated README and source code.
 
-## 📚 Projects
+##  Projects
 
 | # | Project | Domain | Language | Description |
 |---|---------|--------|----------|-------------|
